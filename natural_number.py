@@ -77,9 +77,6 @@
 
 # Write a Python Program to print multiplication table of any number.
 num = int(input("Enter your number :"))
-i = 0
-#total = 1
-while i*num:
-    print(i ,"*",num)
-    num = num + 1
-i = i + 1
+
+for i in range(1,11):
+    print(num,"*",i,"=",num*i)
